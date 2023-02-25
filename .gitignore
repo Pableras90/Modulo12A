@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/.cache
 
 # Runtime data
 pids
@@ -77,8 +78,6 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env
 
 # next.js build output
 .next
