@@ -2,6 +2,7 @@ import { onUpdateField, onSubmitForm, onSetError, onSetFormErrors } from '../../
 import { isValidLogin } from './login.api';
 import { formValidation } from './login.validations';
 import { history, routes } from '../../core/router';
+
 let login = {
     user: '',
     password: '',
