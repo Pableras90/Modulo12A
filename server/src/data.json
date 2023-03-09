@@ -6,7 +6,8 @@
       "type": "1",
       "name": "Gastos mes",
       "balance": 1490,
-      "lastTransaction": "2019-12-09T21:30:00"
+      "lastTransaction": "2019-12-09T21:30:00",
+      "alias": "Gastos mes"
     },
     {
       "id": "2",
@@ -14,7 +15,8 @@
       "type": "3",
       "name": "Compartida",
       "balance": 2480,
-      "lastTransaction": "2019-11-21T14:07:38"
+      "lastTransaction": "2019-11-21T14:07:38",
+      "alias": "Compartida"
     },
     {
       "id": "3",
@@ -23,6 +25,14 @@
       "name": "Ahorro",
       "balance": 8500,
       "lastTransaction": "2019-11-15T08:29:04"
+    },
+    {
+      "iban": "GI54 RJHZ 2894 94P4 32YM 638",
+      "name": "Nueva cuenta ahorro",
+      "type": "2",
+      "balance": 0,
+      "lastTransaction": "2023-03-09T17:51:28.144Z",
+      "id": "96PI5SV"
     }
   ],
   "movements": [
