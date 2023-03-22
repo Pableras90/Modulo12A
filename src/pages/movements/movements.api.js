@@ -2,7 +2,7 @@ import Axios from 'axios'
 
 const url = `${process.env.BASE_API_URL}/movements`;
 
-export const getMovementsByAccountId = accountId => Axios.get(`${url}?accountId=${accountId}`)
-.then(response => {
-    return response.data;
-});
+export const getMovementsByAccountId = id => Axios.get(url, { params: { accountId: id } })
+    .then(data => {
+        return data;
+    });
