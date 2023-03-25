@@ -1,7 +1,8 @@
 import { onUpdateField, onSubmitForm, onSetError, onSetFormErrors, onSetValues } from '../../common/helpers';
 import { formValidation, FormValidation } from './account.validations';
 import { history } from '../../core/router';
-import { getAccount, updateAccount, insertAccount } from './account.api';
+import { updateAccount, insertAccount } from './account.api';
+import { getAccount } from '../../common/api/api.common.js';
 import { mapAccountFromApiToViewModel, mapAccountFromViewModelToApi } from './account.mappers';
 
 const params = history.getParams();

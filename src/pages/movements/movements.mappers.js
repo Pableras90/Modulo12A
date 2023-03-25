@@ -1,20 +1,20 @@
 export const mapMovementListFromApiToViewModel =
-    (accountList) => {
-        return accountList.map(account => mapMovementFromApiToViewModel(account));
+    (movementList) => {
+        return movementList.map(movement => mapMovementFromApiToViewModel(movement));
     }
 
-const mapMovementFromApiToViewModel = (movements) => {
+const mapMovementFromApiToViewModel = (movement) => {
     return {
-        id: movements.id,
-        fecha: new Date
-            (movements.transaction)
+        id: movement.id,
+        transaction: new Date
+            (movement.transaction)
             .toLocaleDateString(),
-        fechaValor: new Date
-            (movements.realTransaction)
+        realTransaction: new Date
+            (movement.realTransaction)
             .toLocaleDateString(),
-        descripcion: movements.description,
-        importe: movements.amount,
-        saldoDisponible: `${movements.balance}€`,
+        description: movement.description,
+        amount: movement.amount,
+        balance: `${movement.balance}€`,
 
     };
 
