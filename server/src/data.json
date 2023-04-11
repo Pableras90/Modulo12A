@@ -118,5 +118,57 @@
       "accountId": "3"
     }
   ],
-  "transfer": []
+  "transfer": [
+    {
+      "id": 1,
+      "accountId": "",
+      "iban": "",
+      "name": "",
+      "amount": "",
+      "concept": "",
+      "notes": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "email": ""
+    },
+    {
+      "id": 2,
+      "accountId": "",
+      "iban": "",
+      "name": "",
+      "amount": "",
+      "concept": "",
+      "notes": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "email": ""
+    },
+    {
+      "id": 3,
+      "accountId": "",
+      "iban": "",
+      "name": "",
+      "amount": "4",
+      "concept": "",
+      "notes": "",
+      "day": "",
+      "month": "",
+      "year": "",
+      "email": ""
+    },
+    {
+      "id": 4,
+      "iban": "ES21 1465 0100 72 2030876293",
+      "name": "FINAL",
+      "amount": "4",
+      "concept": "sdf",
+      "notes": "",
+      "day": "2",
+      "month": "2",
+      "year": "3",
+      "email": "p.reinaldo90@gmail.com"
+    }
+  ]
 }

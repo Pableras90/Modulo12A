@@ -44,9 +44,11 @@ onUpdateField('alias', event => {
         onSetError('alias', result);
     })
 });
+
+//-----------------------------
 const onSave = () => {
     const apiAccount = mapAccountFromViewModelToApi(account);
-    return isEditMode ? updateAccount(apiAccount) : insertAccount(apiAccount);
+    return isEditMode ? updateAccount(apiAccount) : i(apiAccount);
 }
 
 
