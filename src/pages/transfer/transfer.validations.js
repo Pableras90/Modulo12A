@@ -15,14 +15,14 @@ const validationSchema={
             {
               validator: rangeNumber.validator,
               customArgs: {
-                strictTypes: true,
+                strictTypes: false,
                 min: {
                   value: 1,
-                  inclusive: false,
+                  inclusive: true,
                 },
                 max: {
                   value: 31,
-                  inclusive: false,
+                  inclusive: true,
                 },
               },
             },
@@ -31,14 +31,14 @@ const validationSchema={
             {
               validator: rangeNumber.validator,
               customArgs: {
-                strictTypes: true,
+                strictTypes: false,
                 min: {
                   value: 1,
-                  inclusive: false,
+                  inclusive: true,
                 },
                 max: {
                   value: 12,
-                  inclusive: false,
+                  inclusive: true,
                 },
               },
             },
@@ -47,14 +47,14 @@ const validationSchema={
             {
               validator: rangeNumber.validator,
               customArgs: {
-                strictTypes: true,
+                strictTypes: false,
                 min: {
                   value: 1900,
-                  inclusive: false,
+                  inclusive: true,
                 },
                 max: {
                   value: 2030,
-                  inclusive: false,
+                  inclusive: true,
                 },
               },
             },
